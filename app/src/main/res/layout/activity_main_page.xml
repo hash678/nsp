@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/place_autocomplete_search_text">
+
+    <TextView
+        android:id="@+id/nsptitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="My Nixor Portal"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_below="@+id/nsptitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="@color/Nixor_color"
+            android:drawableLeft="@drawable/profile_image"
+            android:onClick="clickButton"
+            android:padding="5dp"
+            android:text="Profile"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/financial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="@color/Nixor_color"
+            android:drawableLeft="@drawable/financial_image"
+            android:onClick="clickButton"
+            android:padding="5dp"
+            android:text="Finance"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/atttendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="@color/Nixor_color"
+            android:drawableLeft="@drawable/atttendance_image"
+            android:onClick="clickButton"
+            android:padding="5dp"
+            android:text="Attendance"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/gate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="@color/Nixor_color"
+            android:drawableLeft="@drawable/gate_image"
+            android:onClick="clickButton"
+            android:padding="5dp"
+            android:text="Gate Attendance"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/Marks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="@color/Nixor_color"
+            android:drawableLeft="@drawable/marks_image"
+            android:onClick="clickButton"
+            android:padding="5dp"
+            android:text="Student Marks"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="@color/Nixor_color"
+            android:drawableLeft="@drawable/schedule_image"
+            android:onClick="clickButton"
+            android:padding="5dp"
+            android:text="Schedule"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onSocButton"
+        android:text="SOC" />
+
+</RelativeLayout>

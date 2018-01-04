@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/thumbnail"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <!--  ListRow Left sied Thumbnail image -->
+
+    <!-- Title Of Song-->
+    <TextView
+        android:id="@+id/Hour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/but"
+        android:layout_toRightOf="@+id/but"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingStart="15dp"
+        android:text="Day not selected "
+        android:textColor="#000000"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/but"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/linearLayout2"
+        android:layout_toRightOf="@+id/linearLayout2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Day:"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Artist Name -->
+
+
+    <!-- Rightend Arrow -->
+
+</RelativeLayout>

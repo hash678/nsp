@@ -1,0 +1,44 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\AndroidProjects\\Nixor4\\Nixor\\slideDayTimePicker\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "E:\\AndroidProjects\\Nixor4\\Nixor\\slideDayTimePicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,15,16,-1,-1,-1,-1,-1,-1,-1,24,32",
+                        "startColumns": "-1,-1,-1,-1,-1,4,4,-1,-1,-1,-1,-1,-1,-1,4,4",
+                        "startOffsets": "-1,-1,-1,-1,-1,581,657,-1,-1,-1,-1,-1,-1,-1,1039,1331",
+                        "endLines": "-1,-1,-1,-1,-1,15,16,-1,-1,-1,-1,-1,-1,-1,31,34",
+                        "endColumns": "-1,-1,-1,-1,-1,75,73,-1,-1,-1,-1,-1,-1,-1,12,12",
+                        "endOffsets": "-1,-1,-1,-1,-1,652,726,-1,-1,-1,-1,-1,-1,-1,1326,1486"
+                    },
+                    "to": {
+                        "startLines": "2,11,12,13,14,15,16,17,18,19,20,21,22,23,24,32",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,372,434,497,539,581,657,731,777,819,859,901,947,991,1039,1331",
+                        "endLines": "10,11,12,13,14,15,16,17,18,19,20,21,22,23,31,34",
+                        "endColumns": "19,61,62,41,41,75,73,45,41,39,41,45,43,47,12,12",
+                        "endOffsets": "367,429,492,534,576,652,726,772,814,854,896,942,986,1034,1326,1486"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Hassan\\retry\\Nixor\\slideDayTimePicker\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "E:\\Hassan\\retry\\Nixor\\slideDayTimePicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,11,12,13,14,15,16,17,18,19,20,21,22,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,372,434,497,539,581,627,669,709,751,797,841,889,1180",
+                        "endLines": "10,11,12,13,14,15,16,17,18,19,20,21,28,31",
+                        "endColumns": "19,61,62,41,41,45,41,39,41,45,43,47,12,12",
+                        "endOffsets": "367,429,492,534,576,622,664,704,746,792,836,884,1175,1335"
+                    }
+                }
+            ]
+        }
+    ]
+}

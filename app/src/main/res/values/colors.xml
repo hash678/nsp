@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#900000</color>
+    <color name="Nixor_color">#900000</color>
+    <color name="white">#ffffff</color>
+    <color name="colorcontrasrt">#fe767474</color>
+    <color name="color1">#0E2136</color>
+    <color name="color2">#73B7BD</color>
+    <color name="color3">#fffef8</color>
+    <color name="color4">#04040B</color>
+    <color name="color7">#0004040b</color>
+    <color name="color5">#BD0204</color>
+    <color name="color8">#fffdeb</color>
+    <color name="color9">#520031</color>
+    <color name="color10">#a4ffffff</color>
+    <color name="color11">#d60e2136</color>
+
+</resources>
